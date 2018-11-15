@@ -14,7 +14,8 @@ public class UsersTests extends BaseTest{
 
     @BeforeClass
     public void login(){
-        loginPage.login(VALID_USERNAME, VALID_PASSWORD);
+        loginPage.openLoginPage()
+                .login(VALID_USERNAME, VALID_PASSWORD);
     }
 
     @Test

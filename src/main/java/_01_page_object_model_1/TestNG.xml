@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite"  >
-    <test name="LoginTest">
+    <test name="Login Tests">
         <classes>
             <class name="_01_page_object_model_1.tests.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="New User Tests">
+        <classes>
+            <class name="_01_page_object_model_1.tests.UsersTests"/>
         </classes>
     </test>
 </suite>
